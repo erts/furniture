@@ -15,6 +15,7 @@
 		D1D545A3203C58090015B800 /* CollectionExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D545A2203C58090015B800 /* CollectionExtensionsTest.swift */; };
 		D1D545A5203C5EA10015B800 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D545A4203C5EA10015B800 /* Optional+Extensions.swift */; };
 		D1D545A7203C5F340015B800 /* OptionalExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D545A6203C5F340015B800 /* OptionalExtensionsTests.swift */; };
+		D1D545AD203C69100015B800 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D545AC203C69100015B800 /* DateTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		D1D545A2203C58090015B800 /* CollectionExtensionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensionsTest.swift; sourceTree = "<group>"; };
 		D1D545A4203C5EA10015B800 /* Optional+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
 		D1D545A6203C5F340015B800 /* OptionalExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalExtensionsTests.swift; sourceTree = "<group>"; };
+		D1D545AC203C69100015B800 /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				D1286C79203A3B9E007E6C97 /* String+Extensions.swift */,
 				D1286C7B203A3BDB007E6C97 /* Array+Extensions.swift */,
 				D1D545A4203C5EA10015B800 /* Optional+Extensions.swift */,
+				D1D545AC203C69100015B800 /* DateTime.swift */,
 			);
 			path = furniture;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				D1286C7A203A3B9E007E6C97 /* String+Extensions.swift in Sources */,
 				D1D545A5203C5EA10015B800 /* Optional+Extensions.swift in Sources */,
+				D1D545AD203C69100015B800 /* DateTime.swift in Sources */,
 				D1286C7C203A3BDB007E6C97 /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
