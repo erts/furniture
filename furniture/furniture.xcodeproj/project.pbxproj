@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92C224B6208E22B20019D617 /* IndenticalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C224B5208E22B20019D617 /* IndenticalProtocol.swift */; };
 		D1286C69203A3B80007E6C97 /* furniture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1286C5F203A3B80007E6C97 /* furniture.framework */; };
 		D1286C6E203A3B80007E6C97 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1286C6D203A3B80007E6C97 /* StringExtensionsTests.swift */; };
 		D1286C70203A3B80007E6C97 /* furniture.h in Headers */ = {isa = PBXBuildFile; fileRef = D1286C62203A3B80007E6C97 /* furniture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92C224B5208E22B20019D617 /* IndenticalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndenticalProtocol.swift; sourceTree = "<group>"; };
 		D1286C5F203A3B80007E6C97 /* furniture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = furniture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1286C62203A3B80007E6C97 /* furniture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = furniture.h; sourceTree = "<group>"; };
 		D1286C63203A3B80007E6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		D1286C61203A3B80007E6C97 /* furniture */ = {
 			isa = PBXGroup;
 			children = (
+				92C224B5208E22B20019D617 /* IndenticalProtocol.swift */,
 				D1286C62203A3B80007E6C97 /* furniture.h */,
 				D1286C63203A3B80007E6C97 /* Info.plist */,
 				D1286C79203A3B9E007E6C97 /* String+Extensions.swift */,
@@ -217,6 +220,7 @@
 			files = (
 				D1286C7A203A3B9E007E6C97 /* String+Extensions.swift in Sources */,
 				D1D545A5203C5EA10015B800 /* Optional+Extensions.swift in Sources */,
+				92C224B6208E22B20019D617 /* IndenticalProtocol.swift in Sources */,
 				D1D545AD203C69100015B800 /* DateTime.swift in Sources */,
 				D1286C7C203A3BDB007E6C97 /* Array+Extensions.swift in Sources */,
 			);
