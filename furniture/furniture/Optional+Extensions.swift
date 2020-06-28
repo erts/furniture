@@ -23,7 +23,7 @@ public extension Optional where Wrapped == String {
    }
 }
 
-public extension Optional where Wrapped == Collection {
+public extension Optional where Wrapped == Array<Any> {
    var isEmptyOrNil: Bool {
       switch self {
       case .none:
